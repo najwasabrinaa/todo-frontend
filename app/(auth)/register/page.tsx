@@ -11,7 +11,6 @@ export default function RegisterPage() {
           <p className="text-sm text-gray-500 mt-1">Buat akun baru</p>
         </header>
 
-        {/* Form Komponen */}
         <RegisterForm />
 
         <div className="mt-6 border-t pt-4 text-center">

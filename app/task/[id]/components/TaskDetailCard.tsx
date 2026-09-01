@@ -22,32 +22,24 @@ export default function TaskDetailCard({ todo }: TaskDetailCardProps) {
 
         <div className="space-y-4">
           <div>
-            <label className="text-xs font-semibold text-gray-400 uppercase tracking-wider">
-              ID Tugas
-            </label>
+            <label className="text-xs font-semibold text-gray-400 uppercase tracking-wider">ID Tugas</label>
             <p className="text-gray-700 font-medium">#{todo.id}</p>
           </div>
 
           <div>
-            <label className="text-xs font-semibold text-gray-400 uppercase tracking-wider">
-              Judul Tugas
-            </label>
+            <label className="text-xs font-semibold text-gray-400 uppercase tracking-wider">Judul Tugas</label>
             <h2 className="text-xl font-semibold text-gray-900">{todo.title}</h2>
           </div>
 
           <div>
-            <label className="text-xs font-semibold text-gray-400 uppercase tracking-wider">
-              Deskripsi
-            </label>
+            <label className="text-xs font-semibold text-gray-400 uppercase tracking-wider">Deskripsi</label>
             <p className="text-gray-600 bg-gray-50 p-4 rounded-md border border-gray-200 mt-1">
               {todo.description}
             </p>
           </div>
 
           <div>
-            <label className="text-xs font-semibold text-gray-400 uppercase tracking-wider">
-              Status
-            </label>
+            <label className="text-xs font-semibold text-gray-400 uppercase tracking-wider">Status</label>
             <div className="mt-1">
               <span
                 className={`inline-block px-3 py-1 text-sm font-semibold rounded-full ${
@@ -62,9 +54,7 @@ export default function TaskDetailCard({ todo }: TaskDetailCardProps) {
           </div>
 
           <div>
-            <label className="text-xs font-semibold text-gray-400 uppercase tracking-wider">
-              Tanggal Dibuat
-            </label>
+            <label className="text-xs font-semibold text-gray-400 uppercase tracking-wider">Tanggal Dibuat</label>
             <p className="text-gray-600 text-sm mt-1">{todo.createdAt}</p>
           </div>
         </div>
