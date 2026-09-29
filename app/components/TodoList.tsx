@@ -14,7 +14,8 @@ export default function TodoList({ todos, onToggleTodo, onDeleteTodo }: TodoList
   if (todos.length === 0) {
     return (
       <div className="text-center p-8 text-gray-500 border-2 border-dashed border-gray-200 rounded-md">
-        <p>Belum ada tugas. Yay!</p>
+        <h1>Belum ada tugas.</h1>
+        <p>Tambahkan tugas baru di atas untuk memulai!</p>
       </div>
     );
   }
